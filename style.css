@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;  
+  }
+  
+  body,
+  input,
+  button {
+    font-family: "Open Sans", sans-serif;
+    
+  }
+  
+  input,
+  button {
+    font-size: 16px;
+  }
+  
+  .head_bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #02c8ff;
+    color: white;
+  }
+  
+  
+  footer > .card > .card-body > blockquote > p{
+   margin: 0 10px;
+  }
+  
+  main {
+    min-height: 80vh;
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+
+  /* INPUT */
+  .input_section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: antiquewhite;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  
+  .input_section > h2 {
+    text-align: center;
+    color:  #02c8ff;
+  }
+  
+  .input_section > form > .input {
+    margin: 8px 0;
+  }
+  
+  .input_section > form > .button {
+    background-color:  #29e3e3;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+
+  .input_section > form > .buttonBatal {
+    background-color:  #ff0000;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+
+
+  
+  .input_section > form > .link{
+    margin: 20px;
+  }
+
+
+  .input_section > form > button > span {
+    font-weight: bold;
+  }
+  
+  .input_section > form > .input > input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .input_section > form > .input > label {
+    color:  #000000;
+    font-weight: bold;
+  }
+  
+  .input_section > form > .input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input_section > form > .input_inline > label {
+    color:  #00ffbf;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .Book_shelf{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: antiquewhite;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+
+  .Book_shelf > h2{
+    text-align: center;
+    color: #02c8ff;
+    
+  }
+
+  .table_output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    } 
+  
+  .table_output > table{
+    text-align: center;
+
+  }
+  
+
+  .Book_shelf > button{
+    justify-content: center;
+    background-color:  #29e3e3;
+    color: white;
+    width: 100%;
+    border-radius: 5px;  
+    display: block;
+    border: 0;
+    padding: 5px;
+  }
+
+  .table_output > table > thead {
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-color: #ffffff; 
+}
+
+.edit{
+  background-color: #00ffbf;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 3px 0;
+ color: #ffffff;
+}
+  
+.delete{
+  background-color: #ff0000;
+  padding: 5px;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+}
+
+.delete:hover{
+  color: #2849eb;
+}
+  
+
