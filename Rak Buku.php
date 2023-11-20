@@ -106,21 +106,5 @@ if (isset($_GET['ubah']))
     </section>
     </main>
 
-  <footer>
-  <div class="card">
-      <div class="card-body" style="background-color: antiquewhite;">
-        <blockquote class="blockquote mb-0" style="text-align: center; display: flex; justify-content: center;">
-          <p>Muhammad Rifansyah aliyilbuni</p>
-          <p>Ahmad farhan ruwaisyid</p>
-          <p>Andiena amalia</p>
-          <p>Ridho muhandis</p>
-          <p>Agmal dwi cahyandita</p>
-        </blockquote>
-      </div>
-        <div class="card-header" style="background-color: rgb(82, 229, 255); text-align: center;">
-          tugas kelompok
-        </div>
-    </div>
-  </footer>
   </body>
 </html>
